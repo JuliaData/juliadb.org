@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on JuliaDB</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on JuliaDB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/jupyter/</guid>
+      <description>from IPython.core.display import Image Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)  print(&amp;quot;Welcome to Academic!&amp;quot;)  Welcome to Academic!  Install Python and Jupyter Install Anaconda which includes Python 3 and Jupyter notebook.
+Otherwise, for advanced users, install Jupyter notebook with pip3 install jupyter.
+Create a new blog post as usual Run the following commands in your Terminal, substituting &amp;lt;MY_WEBSITE_FOLDER&amp;gt; and my-post with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website designer for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
+Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.
+ View the documentation Ask a question Request a feature or report a bug Updating?</description>
+    </item>
+    
+  </channel>
+</rss>

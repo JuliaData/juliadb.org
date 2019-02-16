@@ -1,0 +1,986 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.0.0">
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nelson Bighetti">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Professor of Artificial Intelligence">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="JuliaDB">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="JuliaDB">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="JuliaDB">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="JuliaDB">
+  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2019-02-05T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>JuliaDB</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">JuliaDB</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#features" data-target="#features">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#benchmarks" data-target="#benchmarks">
+            
+            <span>Benchmarks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#docs" data-target="#docs">
+            
+            <span>Docs</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+
+
+
+
+
+
+
+<section id="hero" class="hero-overlay" style="
+
+background-color: #007BB2;
+
+
+;">
+
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md-6 order-md-1 text-center text-md-left">
+    
+
+        <h1 class="hero-title" itemprop="headline">
+          Star us on GitHub!
+        </h1>
+
+        
+        <div class="hero-lead"><p><span style="text-shadow: none;"><a class="github-button" href="https://github.com/JuliaComputing/JuliaDB.jl" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span></p>
+</div>
+        
+
+        
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+        <p class="cta-btns">
+          <a href="http://juliadb.org/latest/" target="_blank" rel="noopener" class="btn btn-light btn-lg"><i class="fas fa-book-open" aria-hidden="true"></i> Read the docs</a>
+
+          
+          
+        </p>
+        
+
+        
+        
+
+      
+      
+      </div>
+      <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
+        <img src="/img/logo-inv.svg" alt="">
+      </div>
+    </div>
+    
+
+  </div>
+</section>
+
+  
+
+  
+  
+  
+  <section id="features" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Features</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-fighter-jet"></i></div>
+    <h3>Just-in-time Compiled</h3>
+    <p>JuliaDB leverages Julia&rsquo;s just-in-time compiler (JIT).</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-network-wired"></i></div>
+    <h3>Compute in Parallel</h3>
+    <p>Process data in parallel or even calculate statistical models out-of-core through integration with OnlineStats.jl.</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-table"></i></div>
+    <h3>Store Any Data Type</h3>
+    <p>JuliaDB supports Strings, Dates, Float64&hellip; and any other Julia data type, whether built-in or defined by you.</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-user-check"></i></div>
+    <h3>Fast UDFs</h3>
+    <p>JuliaDB is 100% Julia.  User-defined functions are JIT compiled.</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="far fa-chart-bar"></i></div>
+    <h3>Analytics</h3>
+    <p>OnlineStats integration</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-globe"></i></div>
+    <h3>Open Source</h3>
+    <p>JuliaDB is released under the MIT License.</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-file-csv"></i></div>
+    <h3>Fast CSV Parser</h3>
+    <p>CSVs are loaded extremely fast.  Many files can be read at the same time to create a single table.</p>
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="benchmarks" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Benchmarks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+<ul>
+<li>Reproducible benchmarks are available <a href="https://github.com/joshday/JuliaDB_Benchmarks" target="_blank">here</a>.</li>
+<li>A big data example (260GB of CSVs) is available <a href="https://github.com/joshday/JuliaDB_Benchmarks/blob/master/bigdata/JuliaDB%20with%20TrueFX%20dataset.ipynb" target="_blank">here</a>.</li>
+</ul>
+
+<h2 id="juliadb-vs-pandas">JuliaDB vs. Pandas</h2>
+
+<p><img src="https://user-images.githubusercontent.com/8075494/52812765-45f51d80-3066-11e9-98a4-6dee24a08b6d.png" alt="" /></p>
+
+<h2 id="parallel-vs-serial-processing">Parallel vs. Serial Processing</h2>
+
+<p><img src="https://user-images.githubusercontent.com/8075494/52812129-c6b31a00-3064-11e9-9299-a5f1966edcab.png" alt="" /></p>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="talks" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/juliacon2018josh/" itemprop="url">Scalable Data Analysis with JuliaDB and OnlineStats</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      JuliaDB integrates with OnlineStats to provide scalable single pass algorithms (that can run in parallel) for statistics and modeling …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Aug 8, 2018
+          
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">JuliaCon 2018, London</span>
+        
+      </div>
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/josh-day/">Josh Day</a></span></span>
+  
+
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=lyRW1XOwnsg" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/juliacon2018josh/">
+      <img src="/talk/juliacon2018josh/featured_hu072c3ba4b54d685a168f7621e3a0bb1d_195384_150x0_resize_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/juliacon2018shashi/" itemprop="url">How JuliaDB Works</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      JuliaDB is a pure Julia analytical database. It makes loading large datasets and playing with them easy and fast. JuliaDB needs to …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span itemprop="startDate">
+          
+          Aug 8, 2018
+          
+          
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span itemprop="location">JuliaCon 2018, London</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=pVNOf5kgpE4" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/juliacon2018shashi/">
+      <img src="/talk/juliacon2018shashi/featured_hu2d606f32ed30f00ac73e3334f4d489a8_658143_150x0_resize_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="resources" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Resources</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    <ul>
+<li><a href="http://juliadb.org/latest/" target="_blank">Documentation</a></li>
+<li><a href="https://julialang.slack.com/messages/C86LDBEBD/" target="_blank">JuliaDB Slack Channel</a></li>
+<li><a href="https://github.com/JuliaComputing/JuliaDB.jl" target="_blank">Source Code</a></li>
+</ul>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+    
+
+
+
+
+
+
+
+<section id="hero2" class="hero-overlay" style="
+
+background-color: #007BB2;
+
+
+;">
+
+  <div class="container">
+    
+
+        <h1 class="hero-title" itemprop="headline">
+          
+        </h1>
+
+        
+        <div class="hero-lead"><p>JuliaDB is a project from:</p>
+
+<p><a href="https://juliacomputing.com"><img src="https://juliacomputing.com/assets/img/new/julia-computing.svg" style="height: 100px; width: auto; background-color: white; border-radius: 4px;"></a></p>
+</div>
+        
+
+        
+        
+
+        
+        
+
+      
+      
+
+  </div>
+</section>
+
+  
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.c1b0baf12cd491effaeeb294faf1e83e.js"></script>
+
+  </body>
+</html>
+
+
