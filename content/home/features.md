@@ -19,7 +19,7 @@ weight = 2
   icon = "fighter-jet"
   icon_pack = "fas"
   name = "Just-in-time Compiled"
-  description = "JuliaDB leverages Julia's just-in-time compiler (JIT)."
+  description = "JuliaDB leverages Julia's just-in-time compiler (JIT) so that table operations -- even custom ones -- are *fast*."
 
 [[feature]]
   icon = "network-wired"
@@ -37,19 +37,13 @@ weight = 2
   icon = "user-check"
   icon_pack = "fas"
   name = "Fast UDFs"
-  description = "JuliaDB is 100% Julia.  User-defined functions are JIT compiled."
-
-[[feature]]
-  icon = "chart-bar"
-  icon_pack = "far"
-  name = "Analytics"
-  description = "OnlineStats integration "
+  description = "JuliaDB is written 100% in Julia.  That means user-defined functions are JIT compiled."
 
 [[feature]]
   icon = "globe"
   icon_pack = "fas"
   name = "Open Source"
-  description = "JuliaDB is released under the MIT License."
+  description = "MIT License."
 
 [[feature]]
   icon = "file-csv"

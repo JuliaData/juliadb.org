@@ -15,7 +15,7 @@ weight = 4
 +++
 
 - Reproducible benchmarks are available [here](https://github.com/joshday/JuliaDB_Benchmarks).
-- A big data example (260GB of CSVs) is available [here](https://github.com/joshday/JuliaDB_Benchmarks/blob/master/bigdata/JuliaDB%20with%20TrueFX%20dataset.ipynb).
+- A big data example (**260GB of CSVs**) is available [here](https://github.com/joshday/JuliaDB_Benchmarks/blob/master/bigdata/JuliaDB%20with%20TrueFX%20dataset.ipynb).
 
 ## JuliaDB vs. Pandas
 

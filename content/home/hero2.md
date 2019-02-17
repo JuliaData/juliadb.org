@@ -36,7 +36,7 @@ hero_media = ""
 #  label = '<a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>'
 +++
 
-JuliaDB is a project from:
+**JuliaDB** is a project of
 
 <a href="https://juliacomputing.com"><img src="https://juliacomputing.com/assets/img/new/julia-computing.svg" style="height: 100px; width: auto; background-color: white; border-radius: 4px;"></a>
 
