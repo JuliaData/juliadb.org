@@ -3,7 +3,7 @@ title = "How JuliaDB Works"
 date = 2018-08-08T00:00:00  # Schedule page publish date (not talk date).
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Shashi Gowda"]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
