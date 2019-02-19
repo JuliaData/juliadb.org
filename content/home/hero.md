@@ -22,7 +22,7 @@ hero_media = "logo-inv.svg"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "http://juliadb.org/latest/"
+  url = "https://juliacomputing.github.io/JuliaDB.jl/latest/"
   label = "Read the docs"
   icon_pack = "fas"
   icon = "book-open"
