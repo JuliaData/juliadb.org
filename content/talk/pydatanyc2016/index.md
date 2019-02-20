@@ -1,9 +1,9 @@
 +++
-title = "Scalable Data Analysis with JuliaDB and OnlineStats"
-date = 2018-08-08T00:00:01  # Schedule page publish date (not talk date).
+title = "How JuliaDB Works"
+date = 2018-08-08T00:00:00  # Schedule page publish date (not talk date).
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Josh Day"]
+authors = ["Jeff Bezanson", "Josh Day", "Shashi Gowda"]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -12,17 +12,17 @@ authors = ["Josh Day"]
 all_day = true
 
 # Location of event.
-location = "JuliaCon 2018, London"
+location = "PyData NYC 2016, New York"
 
 # Name of event and optional event URL.
-event = "JuliaCon 2018"
-event_url = "https://juliacon.org/2018/"
+event = "PyData NYC 2016"
+event_url = "[https://juliacon.org/2018/](https://pydata.org)"
 
 # Abstract. What's your talk about?
-abstract = "JuliaDB integrates with OnlineStats to provide scalable single pass algorithms (that can run in parallel) for statistics and modeling on big data. This integration allows you to transform small-scale analyses into out-of-core computations for huge datasets without changing your code."
+abstract = "Modern data analysis pipelines routinely involve gluing together multiple systems and languages: SQL, Python, R, C++, unix tools, and more. This leads to unnecessary complexity and inefficiency. JuliaDB is a fast, productivity-focused, distributed database that, together with the Julia language, forms a single coherent system for everything from data preparation to machine learning with no glue."
 
 # Summary. An optional shortened abstract.
-# summary = "An example talk using Academic's Markdown slides feature."
+#summary = "An example talk using Academic's Markdown slides feature."
 
 # Is this a featured talk? (true/false)
 featured = false
@@ -37,7 +37,7 @@ tags = []
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = ""
+slides = "https://github.com/joshday/JuliaDB_PyDataNYC2017"
 
 # Optional filename of your slides within your talk folder or a URL.
 url_slides = ""
@@ -52,7 +52,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_video = "https://www.youtube.com/watch?v=lyRW1XOwnsg"
+url_video = "https://www.youtube.com/watch?v=ggRIX0GAPDw"
 url_code = ""
 
 # Featured image
