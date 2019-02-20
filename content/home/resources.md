@@ -15,6 +15,6 @@ weight = 40
 
 +++
 
-- [Documentation](http://juliadb.org/latest/)
+- [Documentation](https://juliacomputing.github.io/JuliaDB.jl/latest/)
 - [JuliaDB Slack Channel](https://julialang.slack.com/messages/C86LDBEBD/)
 - [Source Code](https://github.com/JuliaComputing/JuliaDB.jl)
