@@ -1,5 +1,5 @@
 +++
-title = "How JuliaDB Works"
+title = "JuliaDB: A Data System for Julia"
 date = 2016-10-01T00:00:00  # Schedule page publish date (not talk date).
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
